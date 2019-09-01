@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Monkey",
+    "image": "https://media.giphy.com/media/g4ULyp0ZqPsluYyy2O/giphy.gif"
+  },
+  {
+    "id": 2,
+    "name": "Panda",
+    "image": "https://media.giphy.com/media/6y4hzz3vPYiH0fLOZh/giphy.gif"
+  },
+  {
+    "id": 3,
+    "name": "Fox",
+    "image": "https://media.giphy.com/media/7zonJkQKkwlafGuXhE/giphy.gif"
+  },
+  {
+    "id": 4,
+    "name": "Lion",
+    "image": "https://media.giphy.com/media/5hxrpvEpqrQ3wctuoH/giphy.gif"
+  },
+  {
+    "id": 5,
+    "name": "Dog",
+    "image": "https://media.giphy.com/media/7zonJkQKkwlafGuXhE/giphy.gif"
+  },
+  {
+    "id": 6,
+    "name": "Chicken",
+    "image": "https://media.giphy.com/media/2scMH49SxA8xhxtDw5/giphy.gif"
+  },
+  {
+    "id": 7,
+    "name": "Fox",
+    "image": "https://media.giphy.com/media/7zonJkQKkwlafGuXhE/giphy.gif"
+  },
+  {
+    "id": 8,
+    "name": "Bear",
+    "image": "https://media.giphy.com/media/2SYjV7tyCDNQK3tyz1/giphy.gif"
+  },
+  {
+    "id": 9,
+    "name": "Unicorn",
+    "image": "https://media.giphy.com/media/lfep6WDhbinPCMuYjB/giphy.gif"
+  },
+  {
+    "id": 10,
+    "name": "Boar",
+    "image": "https://media.giphy.com/media/fGUfusuzdFpMSW2ozq/giphy.gif"
+  },
+  {
+    "id": 11,
+    "name": "Poop",
+    "image": "https://media.giphy.com/media/wqYnQfDLG5rvDPrGyZ/giphy.gif"
+  },
+  {
+    "id": 12,
+    "name": "Giraffe",
+    "image": "https://media.giphy.com/media/8qxnHFUqz15YjFKVTB/giphy.gif"
+  }
+]
