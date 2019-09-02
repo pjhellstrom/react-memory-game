@@ -52,30 +52,33 @@ class App extends Component {
     return (
       <div className="App">
         <Wrapper>
-          <h2 className="App-intro">
-            <strong>
-              Try to click on each only once - clicking on the same card twice
-              will reset the game!
-            </strong>
-            <p className="score">
+          <header className="App-header">
+            <h2 className="App-intro">
               <strong>
-                Current Score: {this.state.currentScore} | High Score:{" "}
-                {this.state.highScore}
+                Try to click on each only once - clicking on the same card twice
+                will reset the game!
               </strong>
-            </p>
-            <p className="message">
-              <strong>{this.state.message}</strong>
-            </p>
-          </h2>
-
-          {this.state.cards.map(card => (
-            <GameCard
-              id={card.id}
-              key={card.id}
-              image={card.image}
-              cardClick={this.cardClick}
-            />
-          ))}
+              <p className="score">
+                <strong>
+                  Current Score: {this.state.currentScore} | High Score:{" "}
+                  {this.state.highScore}
+                </strong>
+              </p>
+              <p className="message">
+                <strong>{this.state.message}</strong>
+              </p>
+            </h2>
+          </header>
+          <div className="App-card-wrapper">
+            {this.state.cards.map(card => (
+              <GameCard
+                id={card.id}
+                key={card.id}
+                image={card.image}
+                cardClick={this.cardClick}
+              />
+            ))}
+          </div>
         </Wrapper>
       </div>
     );

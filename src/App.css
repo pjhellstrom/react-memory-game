@@ -9,18 +9,24 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
-  flex-direction: column;
+  width: 100vw;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.101);
 }
 
 .App-link {
   color: #61dafb;
+}
+
+.App-card-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
 }
 
 @keyframes App-logo-spin {
