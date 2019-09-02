@@ -1,3 +1,9 @@
+# React.js - Memory Game
+
+This project has been deployed on [Heroku](https://vast-taiga-69675.herokuapp.com).
+
+## React
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
