@@ -11,7 +11,7 @@ class App extends Component {
     clicked: [],
     highScore: 0,
     currentScore: 0,
-    message: ""
+    message: "Ready? Start clicking!"
   };
 
   shuffle = cardDeck => {
@@ -51,25 +51,23 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <h1 className="App-title">Memory Click Game</h1>
-        </header>
-        <h3 className="App-intro">
-          <strong>
-            Remember what cards you have clicked as clicking on a card twice
-            will reset your score!
-          </strong>
-          <p className="score">
-            <strong>
-              Current Score: {this.state.currentScore} | High Score:{" "}
-              {this.state.highScore}
-            </strong>
-          </p>
-          <p className="message">
-            <strong>{this.state.message}</strong>
-          </p>
-        </h3>
         <Wrapper>
+          <h2 className="App-intro">
+            <strong>
+              Try to click on each only once - clicking on the same card twice
+              will reset the game!
+            </strong>
+            <p className="score">
+              <strong>
+                Current Score: {this.state.currentScore} | High Score:{" "}
+                {this.state.highScore}
+              </strong>
+            </p>
+            <p className="message">
+              <strong>{this.state.message}</strong>
+            </p>
+          </h2>
+
           {this.state.cards.map(card => (
             <GameCard
               id={card.id}
